@@ -31,7 +31,7 @@ jobs:
      # Compiles classes to test 
       - name: compile classes
         working-directory: ./src
-        run: javac -cp "../TestResources/junit-platform-console-standalone-1.6.0.jar" ./hollywood/HollyWood.java ./hollywood/HollyWoodActor.java  "../test/hollywood/HollywoodTest.java"    
+        run: javac -cp "../TestResources/junit-platform-console-standalone-1.6.0.jar" ./hollywood/Hollywood.java ./hollywood/HollywoodActor.java  "../test/hollywood/HollywoodTest.java"    
 
     # list contents of src to verify that classess compiled 
       - name: List contents of src directory after compile
